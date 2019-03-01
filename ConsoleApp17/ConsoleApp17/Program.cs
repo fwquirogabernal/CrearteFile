@@ -33,13 +33,9 @@ namespace MyAgenda
             agenda.Agregar(juan);
             agenda.Agregar(jose);
 
-            agenda.GrabarArchivo();
+           
 
-            var test = agenda.LeerArchivo();
-
-            Console.WriteLine(test.Leer("Juan").Apellido );
-
-            Console.ReadLine();
+            
 
            
         }

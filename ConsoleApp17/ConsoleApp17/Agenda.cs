@@ -28,23 +28,16 @@ namespace ConsoleApp17
             return contactos.Where(x => x.Contiene(valor)).FirstOrDefault();
         }
 
-        public void GrabarArchivo()
+        public void GrabarArchivo(StreamWriter streamWriter)
         {
             var json = JsonConvert.SerializeObject(this);
-            string direct = Path.Combine(Directory.GetCurrentDirectory(), @"json\");
-            string path = direct + "agenda.json";
-            Directory.CreateDirectory(direct);
-            File.WriteAllText(path, json);
+            streamWriter.WriteLine(json);
         }
 
-        public Agenda LeerArchivo()
+        static public Agenda LeerArchivo(StreamReader streamReader)
         {
-            string path = Path.Combine(Directory.GetCurrentDirectory(), @"json\agenda.json");
-            using (StreamReader jsonStream = File.OpenText(path))
-            {
-                var json = jsonStream.ReadToEnd();
-                return JsonConvert.DeserializeObject<Agenda>(json);
-            }
+            var json = streamReader.ReadToEnd();
+            return JsonConvert.DeserializeObject<Agenda>(json);
         }
     }
 }

@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,7 @@ namespace MyAgendaTest
             domicilio = new Entrada { TipoEntrada = TipoEntrada.Direccion, Valor = "Mendoza 303" };
             juan = new Contacto { Apellido = "Perez", Nombre = "Juan", Nacimiento = DateTime.Today };
             jose = new Contacto { Apellido = "Lopez", Nombre = "Juan", Nacimiento = DateTime.Today };
+
             agenda = new Agenda();
             juan.Agregar(correo);
             juan.Agregar(domicilio);
@@ -82,11 +84,17 @@ namespace MyAgendaTest
         {
             agenda.Agregar(juan);
             agenda.Agregar(jose);
-            agenda.GrabarArchivo();
 
-            var result = agenda.LeerArchivo();
+            var destino = new MemoryStream();
+            var escritor = new StreamWriter(destino);
 
-            Assert.IsNotNull(result);
+            agenda.GrabarArchivo(escritor);
+
+            escritor.Flush();
+            destino.Seek(0, SeekOrigin.Begin);
+            var lector = new StreamReader(destino);
+            var resultado = lector.ReadLine();
+            Assert.IsTrue(resultado.Contains("Juan"));
         }
     }
 }
