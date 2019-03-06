@@ -23,16 +23,10 @@ namespace ConsoleApp17
         {
             if (valor == null) return false;
             if (valor == "") return true;
-            var palabras = valor.Split(new[] { ' ' });
-            var cantidad = 0;
-            foreach (var item in palabras)
-            {
-                if (Nombre.Contains(item) || Apellido.Contains(item) || LeerTodo().Any(x => x.Contiene(item) ))
-                {
-                    cantidad++;
-                }
-            }
-            return palabras.Length == cantidad;
+            if (Nombre.IniciaCon(valor) || Apellido.IniciaCon(valor) || LeerTodo().Any(x => x.Contiene(valor))) return true;
+            return false;
+                   
+            
                
         }
 

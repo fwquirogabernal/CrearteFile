@@ -20,7 +20,7 @@ namespace ConsoleApp17
         {
             if (_valor == null) return false;
             if (_valor == "") return true;
-            return Valor.Contains(_valor);
+            return Valor.IniciaCon(_valor);
         }
     }
 }

@@ -64,7 +64,7 @@ namespace MyAgendaTest
             agenda.Agregar(juan);
             agenda.Agregar(jose);
 
-            var result = agenda.Leer("Juan Perez");
+            var result = agenda.Leer("Juan");
 
             Assert.That(result, Is.EqualTo(juan));
         }
