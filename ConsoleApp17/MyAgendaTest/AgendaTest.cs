@@ -85,7 +85,7 @@ namespace MyAgendaTest
             agenda.Agregar(juan);
             agenda.Agregar(jose);
 
-            var destino = new MemoryStream();
+            MemoryStream destino = new MemoryStream();
             var escritor = new StreamWriter(destino);
 
             agenda.GrabarArchivo(escritor);
