@@ -20,3 +20,14 @@ C:\Users\Fer\Desktop\ConsoleApp17\ConsoleApp17\obj\Debug\MyAgenda.csproj.CopyCom
 C:\Users\Fer\Desktop\ConsoleApp17\ConsoleApp17\obj\Debug\ConsoleApp17.exe
 C:\Users\Fer\Desktop\ConsoleApp17\ConsoleApp17\obj\Debug\ConsoleApp17.pdb
 C:\Users\Fer\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\MyAgenda.csprojAssemblyReference.cache
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\bin\Debug\ConsoleApp17.exe.config
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\bin\Debug\ConsoleApp17.exe
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\bin\Debug\ConsoleApp17.pdb
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\bin\Debug\Newtonsoft.Json.pdb
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\bin\Debug\Newtonsoft.Json.xml
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\obj\Debug\MyAgenda.csprojAssemblyReference.cache
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\obj\Debug\MyAgenda.csproj.CoreCompileInputs.cache
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\obj\Debug\MyAgenda.csproj.CopyComplete
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\obj\Debug\ConsoleApp17.exe
+C:\Dev\CreateFile\ConsoleApp17\ConsoleApp17\obj\Debug\ConsoleApp17.pdb

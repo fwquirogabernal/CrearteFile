@@ -25,7 +25,7 @@ namespace MyAgendaTest
             correo1 = new Entrada { TipoEntrada = TipoEntrada.Direccion, Valor = "jose.perez@mail.com" };
             domicilio = new Entrada { TipoEntrada = TipoEntrada.Direccion, Valor = "Mendoza 303" };
             juanP = new Contacto { Apellido = "Perez", Nombre = "Juan", Nacimiento = DateTime.Today };
-            jose = new Contacto { Apellido = "Lopez", Nombre = "Juan", Nacimiento = DateTime.Today };
+            jose = new Contacto { Apellido = "Lopez", Nombre = "Jose", Nacimiento = DateTime.Today };
         }
 
         [Test]
@@ -45,7 +45,7 @@ namespace MyAgendaTest
             jose.Agregar(correo);
             jose.Agregar(domicilio);
 
-            var result = jose.Contiene("Juan");
+            var result = jose.Contiene("Jose");
 
             Assert.IsTrue(result);
         }
@@ -109,7 +109,27 @@ namespace MyAgendaTest
             Assert.That(result, Is.EqualTo(0));
         }
 
+        [Test]
+        public void VerificarSiContieneNombreApellido()
+        {
+            jose.Agregar(correo);
+            jose.Agregar(domicilio);
 
+            var result = jose.Contiene("Jose Lopez");
+
+            Assert.IsTrue(result);
+        }
+
+        [Test]
+        public void VerificarSiContieneApellidoNombre()
+        {
+            jose.Agregar(correo);
+            jose.Agregar(domicilio);
+
+            var result = jose.Contiene("Lopez Jose");
+
+            Assert.IsTrue(result);
+        }
 
     }
 }

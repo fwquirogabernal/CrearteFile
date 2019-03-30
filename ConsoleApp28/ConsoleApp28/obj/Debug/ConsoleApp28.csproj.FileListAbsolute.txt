@@ -1,0 +1,11 @@
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\bin\Debug\ConsoleApp28.exe.config
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\bin\Debug\ConsoleApp28.exe
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\bin\Debug\ConsoleApp28.pdb
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\bin\Debug\nunit.framework.dll
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\bin\Debug\nunit.framework.pdb
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\bin\Debug\nunit.framework.xml
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.csprojAssemblyReference.cache
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.csproj.CoreCompileInputs.cache
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.csproj.CopyComplete
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.exe
+C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.pdb

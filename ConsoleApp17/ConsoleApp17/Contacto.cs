@@ -23,16 +23,11 @@ namespace ConsoleApp17
         {
             if (valor == null) return false;
             if (valor == "") return true;
-            if (Nombre.Contains(valor)) return true;
-            if (Apellido.Contains(valor)) return true;
-            foreach (var item in entradas)
-            {
-                if (item.Contiene(valor))
-                {
-                    return true;
-                }
-            }
+            if (Nombre.IniciaCon(valor) || Apellido.IniciaCon(valor) || LeerTodo().Any(x => x.Contiene(valor))) return true;
             return false;
+                   
+            
+               
         }
 
         public IEnumerable<Entrada> LeerTodo()

@@ -1,0 +1,7 @@
+C:\Users\Fer\source\repos\ConsoleApp27\ConsoleApp27\bin\Debug\ConsoleApp27.exe.config
+C:\Users\Fer\source\repos\ConsoleApp27\ConsoleApp27\bin\Debug\ConsoleApp27.exe
+C:\Users\Fer\source\repos\ConsoleApp27\ConsoleApp27\bin\Debug\ConsoleApp27.pdb
+C:\Users\Fer\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.csprojAssemblyReference.cache
+C:\Users\Fer\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.csproj.CoreCompileInputs.cache
+C:\Users\Fer\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.exe
+C:\Users\Fer\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.pdb
