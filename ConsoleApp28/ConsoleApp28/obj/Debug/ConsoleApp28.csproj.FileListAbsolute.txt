@@ -9,3 +9,14 @@ C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.cspro
 C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.csproj.CopyComplete
 C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.exe
 C:\Users\Fer\source\repos\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.pdb
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\bin\Debug\ConsoleApp28.exe.config
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\bin\Debug\ConsoleApp28.exe
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\bin\Debug\ConsoleApp28.pdb
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\bin\Debug\nunit.framework.dll
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\bin\Debug\nunit.framework.pdb
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\bin\Debug\nunit.framework.xml
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.csprojAssemblyReference.cache
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.csproj.CoreCompileInputs.cache
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.csproj.CopyComplete
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.exe
+C:\Proyects\Personal\CrearteFile\ConsoleApp28\ConsoleApp28\obj\Debug\ConsoleApp28.pdb
